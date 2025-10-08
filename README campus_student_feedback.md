@@ -1,7 +1,9 @@
-Objective:
+## Campus student feedback analysis
+
+### Objective:
 Analyze student feedback from college events and courses to identify strengths, weaknesses, and actionable recommendations for improving campus life.
 
-🛠 Tools & Libraries
+### 🛠 Tools & Libraries
 
 Google Colab – For interactive analysis (no installation required)
 
@@ -13,7 +15,7 @@ TextBlob / VADER – Sentiment analysis of feedback comments
 
 WordCloud – Highlight common keywords in comments
 
-📂 Dataset
+### 📂 Dataset
 
 Source: Student Feedback Survey responses Kaggle
 
@@ -25,17 +27,17 @@ Feedback comments (simulated or actual)
 
 Optional: department or event_type for group-wise analysis
 
-📊 Analysis & Visualizations
+### 📊 Analysis & Visualizations
 
-Ratings Analysis
+#### Ratings Analysis
 
 Average ratings per feedback area
 
 Highest and lowest-rated aspects
 
-Distribution of ratings (boxplots/violin plots)
+Distribution of ratings (boxplots plots)
 
-Sentiment Analysis
+#### Sentiment Analysis
 
 Comments labeled as Positive, Neutral, Negative
 
@@ -43,17 +45,17 @@ Pie chart and bar chart for sentiment distribution
 
 Optional comparison of numeric ratings vs. sentiment
 
-Word Cloud
+#### Word Cloud
 
 Most common words in student comments
 
 Insights into frequent topics/issues
 
-Feedback Summary Table
+#### Feedback Summary Table
 
 Combines average rating, dominant sentiment, and top keywords per feedback area
 
-Correlation Analysis
+### Correlation Analysis
 
 Heatmap showing relationships between feedback aspects
 
@@ -71,7 +73,7 @@ Highlights the 3 most urgent areas for improvement
 
 Provides actionable suggestions for organizers
 
-💡 Key Findings
+### 💡 Key Findings
 
 Top 3 Highly Appreciated Areas:
 
@@ -81,7 +83,7 @@ Top 3 Areas Needing Urgent Improvement:
 
 Example: Assignment Difficulty, Course Structure, Doubt Solving
 
-📈 How to Run
+### 📈 How to Run
 
 Open the uploaded Google Colab notebook.
 
@@ -89,7 +91,7 @@ Run each cell sequentially to reproduce analysis and visualizations.
 
 Replace the CSV path with your dataset if needed.
 
-⚡ Recommendations for Future Events
+### ⚡ Recommendations for Future Events
 
 Reduce workload and clarify assignments
 
